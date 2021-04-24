@@ -1,0 +1,12 @@
+C:\Users\ASUS\source\repos\revised Venus Hackathon Project\bin\Debug\revised Venus Hackathon Project.exe.config
+C:\Users\ASUS\source\repos\revised Venus Hackathon Project\bin\Debug\revised Venus Hackathon Project.exe
+C:\Users\ASUS\source\repos\revised Venus Hackathon Project\bin\Debug\revised Venus Hackathon Project.pdb
+C:\Users\ASUS\source\repos\revised Venus Hackathon Project\obj\Debug\revised Venus Hackathon Project.csprojAssemblyReference.cache
+C:\Users\ASUS\source\repos\revised Venus Hackathon Project\obj\Debug\revised_Venus_Hackathon_Project.Form1.resources
+C:\Users\ASUS\source\repos\revised Venus Hackathon Project\obj\Debug\revised_Venus_Hackathon_Project.Form2.resources
+C:\Users\ASUS\source\repos\revised Venus Hackathon Project\obj\Debug\revised_Venus_Hackathon_Project.Form3.resources
+C:\Users\ASUS\source\repos\revised Venus Hackathon Project\obj\Debug\revised_Venus_Hackathon_Project.Properties.Resources.resources
+C:\Users\ASUS\source\repos\revised Venus Hackathon Project\obj\Debug\revised Venus Hackathon Project.csproj.GenerateResource.cache
+C:\Users\ASUS\source\repos\revised Venus Hackathon Project\obj\Debug\revised Venus Hackathon Project.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\revised Venus Hackathon Project\obj\Debug\revised Venus Hackathon Project.exe
+C:\Users\ASUS\source\repos\revised Venus Hackathon Project\obj\Debug\revised Venus Hackathon Project.pdb
