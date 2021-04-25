@@ -1,0 +1,11 @@
+C:\Users\ASUS\source\repos\help mode\bin\Debug\help mode.exe.config
+C:\Users\ASUS\source\repos\help mode\bin\Debug\help mode.exe
+C:\Users\ASUS\source\repos\help mode\bin\Debug\help mode.pdb
+C:\Users\ASUS\source\repos\help mode\obj\Debug\help mode.csprojAssemblyReference.cache
+C:\Users\ASUS\source\repos\help mode\obj\Debug\help_mode.Form1.resources
+C:\Users\ASUS\source\repos\help mode\obj\Debug\help_mode.Form2.resources
+C:\Users\ASUS\source\repos\help mode\obj\Debug\help_mode.Properties.Resources.resources
+C:\Users\ASUS\source\repos\help mode\obj\Debug\help mode.csproj.GenerateResource.cache
+C:\Users\ASUS\source\repos\help mode\obj\Debug\help mode.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\help mode\obj\Debug\help mode.exe
+C:\Users\ASUS\source\repos\help mode\obj\Debug\help mode.pdb
