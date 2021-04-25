@@ -32,5 +32,10 @@ namespace revised_Venus_Hackathon_Project
                 pictureBox2.Image = new Bitmap(open.FileName);
             }
         }
+
+        private void buttonlt_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

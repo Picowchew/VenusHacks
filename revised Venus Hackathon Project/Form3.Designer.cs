@@ -47,7 +47,7 @@ namespace revised_Venus_Hackathon_Project
             // 
             this.labels2.AutoSize = true;
             this.labels2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labels2.Location = new System.Drawing.Point(118, 81);
+            this.labels2.Location = new System.Drawing.Point(12, 18);
             this.labels2.Name = "labels2";
             this.labels2.Size = new System.Drawing.Size(84, 25);
             this.labels2.TabIndex = 3;
@@ -57,7 +57,7 @@ namespace revised_Venus_Hackathon_Project
             // 
             this.labelm1.AutoSize = true;
             this.labelm1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelm1.Location = new System.Drawing.Point(118, 172);
+            this.labelm1.Location = new System.Drawing.Point(12, 74);
             this.labelm1.Name = "labelm1";
             this.labelm1.Size = new System.Drawing.Size(100, 25);
             this.labelm1.TabIndex = 4;
@@ -65,25 +65,25 @@ namespace revised_Venus_Hackathon_Project
             // 
             // textBoxs2
             // 
-            this.textBoxs2.Location = new System.Drawing.Point(259, 81);
+            this.textBoxs2.Location = new System.Drawing.Point(138, 24);
             this.textBoxs2.Name = "textBoxs2";
-            this.textBoxs2.Size = new System.Drawing.Size(371, 20);
+            this.textBoxs2.Size = new System.Drawing.Size(334, 20);
             this.textBoxs2.TabIndex = 5;
             this.textBoxs2.TextChanged += new System.EventHandler(this.textBoxs2_TextChanged);
             // 
             // textBoxm1
             // 
-            this.textBoxm1.Location = new System.Drawing.Point(259, 157);
+            this.textBoxm1.Location = new System.Drawing.Point(138, 80);
             this.textBoxm1.Multiline = true;
             this.textBoxm1.Name = "textBoxm1";
-            this.textBoxm1.Size = new System.Drawing.Size(371, 79);
+            this.textBoxm1.Size = new System.Drawing.Size(334, 79);
             this.textBoxm1.TabIndex = 6;
             // 
             // buttonimage2
             // 
-            this.buttonimage2.Location = new System.Drawing.Point(273, 286);
+            this.buttonimage2.Location = new System.Drawing.Point(390, 188);
             this.buttonimage2.Name = "buttonimage2";
-            this.buttonimage2.Size = new System.Drawing.Size(161, 26);
+            this.buttonimage2.Size = new System.Drawing.Size(82, 23);
             this.buttonimage2.TabIndex = 7;
             this.buttonimage2.Text = "Upload Image";
             this.buttonimage2.UseVisualStyleBackColor = true;
@@ -91,52 +91,53 @@ namespace revised_Venus_Hackathon_Project
             // 
             // buttonsubmit2
             // 
-            this.buttonsubmit2.Location = new System.Drawing.Point(670, 381);
+            this.buttonsubmit2.Location = new System.Drawing.Point(382, 256);
             this.buttonsubmit2.Name = "buttonsubmit2";
-            this.buttonsubmit2.Size = new System.Drawing.Size(118, 44);
+            this.buttonsubmit2.Size = new System.Drawing.Size(90, 32);
             this.buttonsubmit2.TabIndex = 8;
             this.buttonsubmit2.Text = "Submit";
             this.buttonsubmit2.UseVisualStyleBackColor = true;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(12, 290);
+            this.textBox2.Location = new System.Drawing.Point(138, 190);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(239, 20);
+            this.textBox2.Size = new System.Drawing.Size(231, 20);
             this.textBox2.TabIndex = 9;
             // 
             // buttonem
             // 
-            this.buttonem.Location = new System.Drawing.Point(467, 286);
+            this.buttonem.Location = new System.Drawing.Point(12, 179);
             this.buttonem.Name = "buttonem";
-            this.buttonem.Size = new System.Drawing.Size(140, 33);
+            this.buttonem.Size = new System.Drawing.Size(100, 33);
             this.buttonem.TabIndex = 10;
             this.buttonem.Text = "Early Morning";
             this.buttonem.UseVisualStyleBackColor = true;
             // 
             // buttonlt
             // 
-            this.buttonlt.Location = new System.Drawing.Point(469, 341);
+            this.buttonlt.Location = new System.Drawing.Point(12, 218);
             this.buttonlt.Name = "buttonlt";
-            this.buttonlt.Size = new System.Drawing.Size(139, 31);
+            this.buttonlt.Size = new System.Drawing.Size(100, 31);
             this.buttonlt.TabIndex = 11;
             this.buttonlt.Text = "Late Night";
             this.buttonlt.UseVisualStyleBackColor = true;
+            this.buttonlt.Click += new System.EventHandler(this.buttonlt_Click);
             // 
             // buttoneve
             // 
-            this.buttoneve.Location = new System.Drawing.Point(469, 392);
+            this.buttoneve.Location = new System.Drawing.Point(12, 255);
             this.buttoneve.Name = "buttoneve";
-            this.buttoneve.Size = new System.Drawing.Size(136, 33);
+            this.buttoneve.Size = new System.Drawing.Size(100, 33);
             this.buttoneve.TabIndex = 12;
             this.buttoneve.Text = "Evening";
             this.buttoneve.UseVisualStyleBackColor = true;
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Location = new System.Drawing.Point(34, 316);
+            this.pictureBox2.Location = new System.Drawing.Point(138, 225);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(201, 109);
+            this.pictureBox2.Size = new System.Drawing.Size(163, 63);
             this.pictureBox2.TabIndex = 13;
             this.pictureBox2.TabStop = false;
             // 
@@ -144,7 +145,7 @@ namespace revised_Venus_Hackathon_Project
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(500, 300);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.buttoneve);
             this.Controls.Add(this.buttonlt);

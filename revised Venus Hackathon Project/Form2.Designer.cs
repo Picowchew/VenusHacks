@@ -42,24 +42,24 @@ namespace revised_Venus_Hackathon_Project
             // 
             // textBoxs1
             // 
-            this.textBoxs1.Location = new System.Drawing.Point(252, 82);
+            this.textBoxs1.Location = new System.Drawing.Point(138, 24);
             this.textBoxs1.Name = "textBoxs1";
-            this.textBoxs1.Size = new System.Drawing.Size(371, 20);
+            this.textBoxs1.Size = new System.Drawing.Size(334, 20);
             this.textBoxs1.TabIndex = 0;
             // 
             // textBoxm2
             // 
-            this.textBoxm2.Location = new System.Drawing.Point(252, 151);
+            this.textBoxm2.Location = new System.Drawing.Point(138, 80);
             this.textBoxm2.Multiline = true;
             this.textBoxm2.Name = "textBoxm2";
-            this.textBoxm2.Size = new System.Drawing.Size(371, 79);
+            this.textBoxm2.Size = new System.Drawing.Size(334, 79);
             this.textBoxm2.TabIndex = 1;
             // 
             // labels1
             // 
             this.labels1.AutoSize = true;
             this.labels1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labels1.Location = new System.Drawing.Point(104, 82);
+            this.labels1.Location = new System.Drawing.Point(12, 18);
             this.labels1.Name = "labels1";
             this.labels1.Size = new System.Drawing.Size(84, 25);
             this.labels1.TabIndex = 2;
@@ -69,7 +69,7 @@ namespace revised_Venus_Hackathon_Project
             // 
             this.labelm2.AutoSize = true;
             this.labelm2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelm2.Location = new System.Drawing.Point(104, 151);
+            this.labelm2.Location = new System.Drawing.Point(12, 74);
             this.labelm2.Name = "labelm2";
             this.labelm2.Size = new System.Drawing.Size(100, 25);
             this.labelm2.TabIndex = 3;
@@ -77,9 +77,9 @@ namespace revised_Venus_Hackathon_Project
             // 
             // buttonimage
             // 
-            this.buttonimage.Location = new System.Drawing.Point(455, 273);
+            this.buttonimage.Location = new System.Drawing.Point(390, 188);
             this.buttonimage.Name = "buttonimage";
-            this.buttonimage.Size = new System.Drawing.Size(168, 23);
+            this.buttonimage.Size = new System.Drawing.Size(82, 23);
             this.buttonimage.TabIndex = 4;
             this.buttonimage.Text = "Upload Image";
             this.buttonimage.UseVisualStyleBackColor = true;
@@ -87,7 +87,7 @@ namespace revised_Venus_Hackathon_Project
             // 
             // buttonsubmit
             // 
-            this.buttonsubmit.Location = new System.Drawing.Point(533, 350);
+            this.buttonsubmit.Location = new System.Drawing.Point(382, 256);
             this.buttonsubmit.Name = "buttonsubmit";
             this.buttonsubmit.Size = new System.Drawing.Size(90, 32);
             this.buttonsubmit.TabIndex = 5;
@@ -96,16 +96,16 @@ namespace revised_Venus_Hackathon_Project
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(138, 273);
+            this.textBox1.Location = new System.Drawing.Point(138, 190);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(277, 20);
+            this.textBox1.Size = new System.Drawing.Size(231, 20);
             this.textBox1.TabIndex = 6;
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(170, 313);
+            this.pictureBox1.Location = new System.Drawing.Point(138, 225);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(205, 108);
+            this.pictureBox1.Size = new System.Drawing.Size(163, 63);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 7;
             this.pictureBox1.TabStop = false;
@@ -114,7 +114,7 @@ namespace revised_Venus_Hackathon_Project
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(500, 300);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.buttonsubmit);

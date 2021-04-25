@@ -38,7 +38,7 @@ namespace revised_Venus_Hackathon_Project
             // 
             this.labelt.AutoSize = true;
             this.labelt.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelt.Location = new System.Drawing.Point(317, 25);
+            this.labelt.Location = new System.Drawing.Point(179, 20);
             this.labelt.Name = "labelt";
             this.labelt.Size = new System.Drawing.Size(112, 31);
             this.labelt.TabIndex = 0;
@@ -46,8 +46,11 @@ namespace revised_Venus_Hackathon_Project
             // 
             // buttont
             // 
+            this.buttont.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.buttont.FlatAppearance.BorderSize = 10;
+            this.buttont.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.buttont.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttont.Location = new System.Drawing.Point(545, 98);
+            this.buttont.Location = new System.Drawing.Point(336, 86);
             this.buttont.Name = "buttont";
             this.buttont.Size = new System.Drawing.Size(98, 49);
             this.buttont.TabIndex = 1;
@@ -58,7 +61,7 @@ namespace revised_Venus_Hackathon_Project
             // buttonn
             // 
             this.buttonn.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonn.Location = new System.Drawing.Point(548, 224);
+            this.buttonn.Location = new System.Drawing.Point(336, 176);
             this.buttonn.Name = "buttonn";
             this.buttonn.Size = new System.Drawing.Size(95, 50);
             this.buttonn.TabIndex = 2;
@@ -70,10 +73,10 @@ namespace revised_Venus_Hackathon_Project
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(500, 300);
             this.Controls.Add(this.buttonn);
-            this.Controls.Add(this.buttont);
             this.Controls.Add(this.labelt);
+            this.Controls.Add(this.buttont);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
