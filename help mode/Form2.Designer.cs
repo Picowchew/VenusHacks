@@ -38,7 +38,7 @@ namespace help_mode
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(318, 33);
+            this.label12.Location = new System.Drawing.Point(185, 40);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(130, 33);
             this.label12.TabIndex = 0;
@@ -47,18 +47,19 @@ namespace help_mode
             // btn1
             // 
             this.btn1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn1.Location = new System.Drawing.Point(159, 263);
+            this.btn1.Location = new System.Drawing.Point(191, 178);
             this.btn1.Name = "btn1";
             this.btn1.Size = new System.Drawing.Size(95, 32);
             this.btn1.TabIndex = 1;
             this.btn1.Text = "Browse";
             this.btn1.UseVisualStyleBackColor = true;
+            this.btn1.Click += new System.EventHandler(this.btn1_Click);
             // 
             // label22
             // 
             this.label22.AutoSize = true;
             this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.Location = new System.Drawing.Point(153, 141);
+            this.label22.Location = new System.Drawing.Point(48, 133);
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(391, 31);
             this.label22.TabIndex = 2;
@@ -68,7 +69,7 @@ namespace help_mode
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(500, 300);
             this.Controls.Add(this.label22);
             this.Controls.Add(this.btn1);
             this.Controls.Add(this.label12);
