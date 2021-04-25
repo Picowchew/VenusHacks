@@ -73,7 +73,7 @@ async function quickstart() {
   /**
    * TODO(developer): Uncomment the following line before running the sample.
    */
-  const fileName = 'error_pic.png';
+
   
   // Performs text detection on the local file
   const [result] = await client.textDetection(fileName);
