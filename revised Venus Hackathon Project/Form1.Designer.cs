@@ -32,6 +32,8 @@ namespace revised_Venus_Hackathon_Project
             this.labelt = new System.Windows.Forms.Label();
             this.buttont = new System.Windows.Forms.Button();
             this.buttonn = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // labelt
@@ -50,7 +52,7 @@ namespace revised_Venus_Hackathon_Project
             this.buttont.FlatAppearance.BorderSize = 10;
             this.buttont.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.buttont.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttont.Location = new System.Drawing.Point(336, 86);
+            this.buttont.Location = new System.Drawing.Point(287, 83);
             this.buttont.Name = "buttont";
             this.buttont.Size = new System.Drawing.Size(98, 49);
             this.buttont.TabIndex = 1;
@@ -61,7 +63,7 @@ namespace revised_Venus_Hackathon_Project
             // buttonn
             // 
             this.buttonn.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonn.Location = new System.Drawing.Point(336, 176);
+            this.buttonn.Location = new System.Drawing.Point(287, 177);
             this.buttonn.Name = "buttonn";
             this.buttonn.Size = new System.Drawing.Size(95, 50);
             this.buttonn.TabIndex = 2;
@@ -69,17 +71,28 @@ namespace revised_Venus_Hackathon_Project
             this.buttonn.UseVisualStyleBackColor = true;
             this.buttonn.Click += new System.EventHandler(this.buttonn_Click);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::revised_Venus_Hackathon_Project.Properties.Resources.blink4;
+            this.pictureBox1.Location = new System.Drawing.Point(104, 54);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(141, 204);
+            this.pictureBox1.TabIndex = 3;
+            this.pictureBox1.TabStop = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(500, 300);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.buttonn);
             this.Controls.Add(this.labelt);
             this.Controls.Add(this.buttont);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -90,6 +103,7 @@ namespace revised_Venus_Hackathon_Project
         private System.Windows.Forms.Label labelt;
         private System.Windows.Forms.Button buttont;
         private System.Windows.Forms.Button buttonn;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 
