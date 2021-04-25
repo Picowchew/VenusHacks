@@ -38,7 +38,7 @@ namespace Venus_Hackathons_project
             // label1t
             // 
             this.label1t.AutoSize = true;
-            this.label1t.Location = new System.Drawing.Point(72, 61);
+            this.label1t.Location = new System.Drawing.Point(50, 61);
             this.label1t.Name = "label1t";
             this.label1t.Size = new System.Drawing.Size(43, 13);
             this.label1t.TabIndex = 0;
@@ -47,7 +47,7 @@ namespace Venus_Hackathons_project
             // label2t
             // 
             this.label2t.AutoSize = true;
-            this.label2t.Location = new System.Drawing.Point(72, 156);
+            this.label2t.Location = new System.Drawing.Point(50, 156);
             this.label2t.Name = "label2t";
             this.label2t.Size = new System.Drawing.Size(50, 13);
             this.label2t.TabIndex = 1;
@@ -55,25 +55,25 @@ namespace Venus_Hackathons_project
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(173, 61);
+            this.textBox1.Location = new System.Drawing.Point(150, 61);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(453, 20);
+            this.textBox1.Size = new System.Drawing.Size(300, 20);
             this.textBox1.TabIndex = 2;
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // textBox2t
             // 
-            this.textBox2t.Location = new System.Drawing.Point(173, 153);
+            this.textBox2t.Location = new System.Drawing.Point(150, 153);
             this.textBox2t.Multiline = true;
             this.textBox2t.Name = "textBox2t";
-            this.textBox2t.Size = new System.Drawing.Size(453, 118);
+            this.textBox2t.Size = new System.Drawing.Size(300, 118);
             this.textBox2t.TabIndex = 3;
             // 
             // Tip
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(500, 300);
             this.Controls.Add(this.textBox2t);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label2t);

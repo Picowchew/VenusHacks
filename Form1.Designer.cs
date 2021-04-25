@@ -27,6 +27,7 @@ namespace Venus_Hackathons_project
         /// Required method for Designer support - do not modify
         /// the contents of this method with the code editor.
         /// </summary>
+        /// 
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
@@ -38,7 +39,7 @@ namespace Venus_Hackathons_project
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(355, 17);
+            this.label1.Location = new System.Drawing.Point(210, 17);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(90, 25);
             this.label1.TabIndex = 0;
@@ -46,7 +47,7 @@ namespace Venus_Hackathons_project
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(535, 85);
+            this.button1.Location = new System.Drawing.Point(350, 85);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(108, 54);
             this.button1.TabIndex = 1;
@@ -56,7 +57,7 @@ namespace Venus_Hackathons_project
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(538, 168);
+            this.button2.Location = new System.Drawing.Point(350, 168);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(104, 56);
             this.button2.TabIndex = 2;
@@ -68,7 +69,7 @@ namespace Venus_Hackathons_project
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(500, 300);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
